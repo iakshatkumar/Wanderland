@@ -1,17 +1,6 @@
 *{
-    
     padding: 0%;
     margin: 0%;
-}
-
-.background-color {
-    background-color: #f6f9fc;
-}
-
-.header {   
-    padding-top: 170px;
-    padding-bottom: 200px;
-    height: 100%;
 }
 
 .form-control {    
@@ -35,5 +24,28 @@
     font-family: 'Pacifico', cursive;
     font-size: 60px;
     padding-bottom: 30px;
+    text-align: center;
+}
+
+.header {
+    background-image: url("../assets/img/pages/2.jpg");
+}
+
+.content-overlay {
+    text-align: center;
+    z-index: 1;
+    margin-top: -550px;
+    margin-bottom: 10%;
+    margin-left: 600px;
+    width: 18rem;
+
+}
+
+.card-body {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.view-more {
     text-align: center;
 }
