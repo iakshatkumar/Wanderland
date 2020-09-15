@@ -1,18 +1,27 @@
 *{
+    
     padding: 0%;
     margin: 0%;
 }
 
-.header {
-    padding-top: 100px;
-    padding-bottom: 300px;
+.background-color {
+    background-color: #f6f9fc;
+}
+
+.header {   
+    padding-top: 170px;
+    padding-bottom: 200px;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(../assets/img/pages/landscape.jpg);
+}
+
+.form-control {    
+    border: 0 !important;   
+    margin: 8px;
+    box-shadow: none !important;
 }
 
 
 .input-group {
-
     width: 90%;
     max-width: 500px;
     border-radius: 30px;
@@ -21,20 +30,10 @@
     padding: 2px;
 }
 
-.form-control {
-    
-    border: 0 !important;
-    border-radius: 30px !important;
-    margin: 2px;
-    box-shadow: none !important;
-}
 
-.input-group-text {
-    width: 40px;
-    background-image: linear-gradient(#5e72e4,#5e72e4);
-    border: 0 !important;
-    color: #fff !important;
-    padding: 0 25px;
-    
-    box-shadow: none !important;
+.cfont {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    padding-bottom: 30px;
+    text-align: center;
 }
