@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+.section {
+    background-color: #f4f5f7;
+}
+
 .form-control {    
     border: 0 !important;   
     margin: 8px;
@@ -11,12 +15,9 @@
 
 
 .input-group {
-    width: 90%;
-    max-width: 500px;
-    border-radius: 30px;
+    width: 100%;  
     background: #fff;
     margin: auto;
-    padding: 2px;
 }
 
 
@@ -29,6 +30,9 @@
 
 .header {
     background-image: url("../assets/img/pages/2.jpg");
+   
+    background-size: cover;
+    background-position: center;
 }
 
 .content-overlay {
@@ -41,9 +45,15 @@
 
 }
 
-.card-body {
+.content-overlay .card-body {
     padding-top: 80px;
     padding-bottom: 100px;
+}
+
+.packages .card {
+    position: relative;
+    box-shadow: 1px 2px 50px 0px rgba(207, 219, 224, 0.349);
+    border-radius: 5px;
 }
 
 .view-more {
