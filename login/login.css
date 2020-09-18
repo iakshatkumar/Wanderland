@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+.section{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("landscape.jpg") ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: 120px;
+=======
+.section {
+    background-image: url("../assets/img/pages/2.jpg");
+>>>>>>> 7103c8a5eb4ce840a2b50dfd8411ee3d78dbfda5
+}
